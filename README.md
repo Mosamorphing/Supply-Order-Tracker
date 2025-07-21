@@ -37,7 +37,7 @@ This project progresses through **3 stages**:
 
 ---
 
-## 🛠 How to Run
+## How to Run
 
 Make sure you have Rust and Cargo installed.  
 To run the program:
@@ -50,18 +50,19 @@ It will compile and launch the interactive menu in your terminal.
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 src/
-├── main.rs        # Entry point
-├── orders.rs      # All order-related logic (add, view, remove, edit)
-└── helpers.rs     # Helper functions like reading input
+├── main.rs               # Entry point
+├── order_actions.rs      # All order-related logic (add, view, remove, edit)
+├── orders.rs             # Main Struct order for the tracker 
+└── utils.rs              # Helper functions like reading input
 ```
 
 ---
 
-## 🧪 Example Usage
+## Example Usage
 
 ```bash
 
